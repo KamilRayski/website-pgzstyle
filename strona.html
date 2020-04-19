@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pgzstyle</title>  
+    <link rel="stylesheet" href="strona.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><a href="#"><img src="header/logo.png" id="logo" alt="logo firmy"></a></div>
+            <div class="wyszukiwarka">
+                <form>
+                    <input type="text" placeholder="Czego szukasz ?" maxlength="30">
+                </form>
+                <a href="#"><img src="header/lupa.png" alt="lupa" id="lupa"></a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="homepage"><a href="#">Strona główna</a></div>
+            <div class="mężczyźni"><a href="#">Mężczyźni</a></div>
+            <div class="kobiety"><a href="#">Kobiety</a></div>
+            <div class="wyprzedaż"><a href="#">Wyprzedaż</a></div>
+            <div class="kontakt"><a href="kontakt.html">Kontakt</a></div>
+        </div>
+        <script>
+            var i= 0; // start point
+            var images=[];
+            var time=4000;
+
+            // image list
+            images[0] = 'slider/slider1.png'
+            images[1] = 'slider/slider2.png'
+            images[2] = 'slider/slider3.png'
+
+            // change image
+            function changeImg(){
+                document.slide.src = images[i];
+
+                if(i < images.length - 1){
+                    i++;
+                } else{
+                    i=0;
+                }
+                setTimeout("changeImg()", time) ;
+            }
+            window.onload = changeImg;
+        </script>
+        <div class="slider">
+            <img name="slide" width="920px" height="230px">
+        </div>
+        <div class="content">
+            <div class="content1">
+                <p id="tekst1"><br>Zacznijmy od początku ... <br>
+                pgzstyle to nowatorski i co najważniejsze,<br>
+                kompletny concept store.<br>
+                To miejsce, gdzie wizja idealnego sklepu<br>
+                przenika się z naturą i kulturą miasta. <br>
+                U nas możesz być po prostu sobą !</p>
+            <img id="photo1" src="content/photo1.png" alt="photography">
+            </div>
+            <div class="content2">
+                    <form id="tekst2">
+                        <label><br><b>NEWSLETTER</b><br><br>
+                            Podaj e-mail, aby być na bieżąco!<br><br>
+                            <input type="email" id="input" name="e-mail" placeholder="Wpisz e-mail" text-align="center" maxlength="20">
+                        </label>
+                    </form>
+                <img id="photo2" src="content/photo2.png" alt="photography">
+            </div>
+        <div class="footer">
+                <div class="openHours"><br><br>
+                    <b>Godziny otwarcia:</b><br>
+                    Poniedziałek-Piątek: 11.00-19.00<br>
+                    Sobota-Niedziela: 9.00-21.00
+                </div>
+                <div class="contact"><br><b>Kontakt:</b><br>
+                    info@pgzstyle.pl<br>
+                    Tel. 12 655 40 05 <br>
+                    Tel.kom. +48 798 993 978
+                </div>
+            <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8614.82213335527!2d19.946823418631293!3d50.063777598138465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b1204197aa1%3A0xa2bcca5e1d063699!2zUnluZWsgR8WCw7N3bnkgNiwgMzAtMDAxIEtyYWvDs3c!5e0!3m2!1spl!2spl!4v1584438838047!5m2!1spl!2spl" width="280" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <div class=socialmedia>
+                <a href="#" class="facebook"><img src="footer/socialmedia/facebook.png" alt="facebook"></a>
+                <a href="#" class="messanger"><img src="footer/socialmedia/messanger.png" alt=""></a>
+                <a href="#" class="instagram"><img src="footer/socialmedia/instagram.png" alt=""></a>
+                <a href="#" class="snapchat"><img src="footer/socialmedia/snapchat.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+  
+    
+</body>
+</html>

@@ -1,0 +1,180 @@
+body{
+    background-color: #e6e7ff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo{
+    float: left;
+    height: 130px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.wyszukiwarka{
+    float: right;
+    height: 50px;
+    width: 380px;
+    display: flex;
+    background-color: #e6e6e6;
+}
+#lupa{     
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.menu{
+    background-color: #6b6764;
+    font-size: 18px;
+    font-family: Arial;
+    color: #e6e6e6;
+    width: 920px;           
+    justify-content: space-between;
+    display: flex;
+    height: 30px;
+}
+.header{
+    display: flex;
+    align-items:flex-end;
+    width: 920px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.menu div.homepage{
+    flex: 4;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.menu div.mężczyźni{
+    flex: 2;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+.menu div.kobiety{
+    flex: 2;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.menu div.wyprzedaż{
+    flex: 2;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.menu div.kontakt{
+    flex: 2;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.slider{
+    height: 230px;
+    width: 920px;
+    margin-top: 20px;
+}
+.content1{
+    width: 920px;
+    justify-content: space-between;
+    display: flex;
+    height: 150px;
+    
+}
+#tekst1{
+    margin-top: 20px;
+    font-size: 17;
+    font-family: Arial;
+    color: #e6e6e6;
+    height: 150px;
+    width: 450px;
+    background-color: #6b6764;
+    text-align: center;    
+}
+#photo1{
+    height: 150px;
+    margin-top: 20px;
+}
+.content2{
+    height: 140px;
+    width: 920px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+#tekst2{
+    font-size: 24;
+    font-family: Arial;
+    color: #e6e6e6;
+    background-color: #6b6764;
+    text-align: center;
+    width: 450px;
+    height: 140px;
+    margin-top: 40px;
+    float: left;
+}
+#photo2{
+    width: 450px;
+    height: 140px;
+    margin-top: 40px;
+}
+.content2 input[type=email]{
+    text-align: center;
+    padding: 5px 5px;
+    color: #6b6764;
+    background-color:#e6e6e6;
+    font-family: Arial;
+    font-size: 14px;
+    border: 1px solid #6b6764;
+}
+.wyszukiwarka input[type="text"]{
+    padding: 7px 7px;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid #6b6764;
+    color: #6b6764;
+    background-color: #e6e6e6;
+    font-family: Arial;
+    font-size: 14px;
+    width: 240px;
+    display: flex;
+    margin-top: 9px;
+}
+.footer{
+    background-color: #e6e6e6;
+    width: 920px;
+    height: 220px;
+    margin-top: 60px;
+    color: #6b6764;
+    font-family: Arial;
+    
+}
+.openHours{
+    margin-left: 60px;
+
+}
+.contact{
+    margin-left: 60px;    
+}
+.mapa{
+    margin-top: -170px;
+    margin-left: 570px;
+}
+.socialmedia{
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    margin-left: 590px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 240px;
+}
+.menu a{
+    text-decoration: none;
+    background-color: #6b6764;
+    font-size: 18px;
+    font-family: Arial;
+    color: #e6e6e6;
+}
